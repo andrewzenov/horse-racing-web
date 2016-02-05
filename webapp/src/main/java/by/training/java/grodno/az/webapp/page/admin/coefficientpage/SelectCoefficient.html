@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<wicket:extend>
+
+
+	<h2>
+		<wicket:container wicket:id="sel-hourse-racing-title" />
+	</h2>
+	<span class="required_notification"></span>
+
+
+
+	<div class="tableconteiner coefficient">
+		<table>
+
+			<tbody>
+				<tr>
+					<td><wicket:message key="all.participants" /></td>
+					<td><span wicket:id="title-0"></span></td>
+					<td><span wicket:id="title-1"></span></td>
+					<td><span wicket:id="title-2"></span></td>
+					<td><span wicket:id="title-3"></span></td>
+					<td><span wicket:id="title-4"></span></td>
+					<td><span wicket:id="title-5"></span></td>
+					<td><span wicket:id="title-6"></span></td>
+				</tr>
+
+
+				<tr wicket:id="sel-coefficient-list">
+					<td><span wicket:id="participant"></span></td>
+					<td><a class="button" wicket:id="0"><span
+							wicket:id="coef-value-0"></span></a></td>
+					<td><a class="button" wicket:id="1"><span
+							wicket:id="coef-value-1"></span></a></td>
+					<td><a class="button" wicket:id="2"><span
+							wicket:id="coef-value-2"></span></a></td>
+					<td><a class="button" wicket:id="3"><span
+							wicket:id="coef-value-3"></span></a></td>
+					<td><a class="button" wicket:id="4"><span
+							wicket:id="coef-value-4"></span></a></td>
+					<td><a class="button" wicket:id="5"><span
+							wicket:id="coef-value-5"></span></a></td>
+					<td><a class="button" wicket:id="6"><span
+							wicket:id="coef-value-6"></span></a></td>
+				</tr>
+
+			</tbody>
+		</table>
+	</div>
+
+	<form class="contact_form" wicket:id="rate-form">
+
+		<ul>
+			<li></li>
+			<li><label>Value:</label> <input type="text"
+				wicket:id="rate-value"></li>
+
+			<li wicket:id="rate-list"><label>Coefficient:</label><label
+				wicket:id="rate-coefficient-label"></label><br /></li>
+
+			<li><label>Possible winner:</label> <label
+				wicket:id="possible-winning-label"></label><br/></li>
+
+			<li>
+				<button class="submit" type="submit" wicket:id="submit-button">
+					<wicket:message key="all.save" />
+				</button>
+
+			</li>
+		</ul>
+	</form>
+	<br />
+
+
+	<br />
+
+
+	<a class="button" wicket:id="sel-hourse-racing-page-link"><span><wicket:message
+				key="all.hourse.racings" /></span></a>  <a class="button-red" wicket:id="add-balance-link"><wicket:message
+						key="all.balance.add" /></a>
+
+
+
+</wicket:extend>

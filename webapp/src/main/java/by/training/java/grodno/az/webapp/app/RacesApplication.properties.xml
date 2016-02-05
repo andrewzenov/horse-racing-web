@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+	<entry key="all.login">Login</entry>
+	<entry key="all.password">Password</entry>
+	<entry key="all.welcome">Welcome</entry>
+	<entry key="all.data.review">Data review</entry>
+	<entry key="all.save">Save</entry>
+	<entry key="all.delete">Delete</entry>
+	<entry key="all.add">Add</entry>
+	<entry key="all.edit">Edit</entry>
+	<entry key="all.title">Title</entry>
+	<entry key="all.description">Description</entry>
+	<entry key="all.date">Date</entry>
+	<entry key="all.registration.date">Registration date</entry>
+	<entry key="all.action">Action</entry>
+	<entry key="all.actions">Actions</entry>
+	<entry key="all.name">Name</entry>
+	<entry key="all.firstName">First name</entry>
+	<entry key="all.lastName">Last name</entry>
+	<entry key="all.email">Email</entry>
+	<entry key="all.role">Role</entry>
+	<entry key="all.users">Users</entry>
+	<entry key="all.user">User</entry>
+	<entry key="all.jockey">Jockey</entry>
+	<entry key="all.jockeys">Jockeys</entry>
+	<entry key="all.hourse">Horse</entry>
+	<entry key="all.hourses">Horses</entry>
+	<entry key="all.participant">Participant</entry>
+	<entry key="all.participants">Participants</entry>
+	<entry key="all.addRace">Add race</entry>
+	<entry key="all.hourse.racings">Horse racings</entry>
+	<entry key="all.result">Result</entry>
+	<entry key="all.results">Results</entry>
+	<entry key="all.rate">Rate</entry>
+	<entry key="all.rates">Rates</entry>
+	<entry key="all.data.saved">Data saved successfully</entry>
+	<entry key="all.rateLine">Lines of rates</entry>
+	<entry key="all.coefficients">Coefficients</entry>
+	<entry key="all.tableRecords.limit">Reached the limit of table records </entry>
+	<entry key="all.password.chang">Password changing</entry>
+	<entry key="all.password.current">Current password</entry>
+	<entry key="all.password.new">New password</entry>
+	<entry key="all.balance">Balance</entry>
+	<entry key="all.balance.add">Replenish balance</entry>
+	<entry key="all.value">Value</entry>
+	<entry key="all.result.position">Result position</entry>
+	<entry key="all.delete.inposible">Deleting is not possible. Record has referencing to
+		other table DB</entry>
+
+
+
+	<entry key="component.logoutInputPanel.logout">Logout</entry>
+	<entry key="component.logoutInputPanel.registration">Registration</entry>
+	<entry key="component.logoutInputPanel.input">Log In</entry>
+	<entry key="component.logoutInputPanel.area">Personal area</entry>
+
+	<entry key="component.registration.user.data">User's data</entry>
+	<entry key="component.registration.required.field">Denotes Required Field</entry>
+
+
+	<entry key="component.menuPanel.admin.home">Home</entry>
+	<entry key="component.menuPanel.admin.rates">Rates</entry>
+	<entry key="component.menuPanel.admin.edit">Edit</entry>
+	<entry key="component.menuPanel.admin.rules">Rules</entry>
+	<entry key="component.menuPanel.admin.aboutus">About us</entry>
+
+	<entry key="component.menuPanel.player.home">Home</entry>
+	<entry key="component.menuPanel.player.rates">Rates</entry>
+	<entry key="component.menuPanel.player.results">Results</entry>
+	<entry key="component.menuPanel.player.rules">Rules</entry>
+	<entry key="component.menuPanel.player.aboutus">About us</entry>
+
+	<entry key="component.headerHolderPanel.user.notaut">User is not authorized</entry>
+	<entry key="component.headerHolderPanel.title.admin">Admin tool</entry>
+	<entry key="component.headerHolderPanel.title.player">Horse racing. Rates online</entry>
+
+	<entry key="page.racingLinePage.isResult">New participant can not be added. The results of the
+		race are already fixed</entry>
+	<entry key="page.racingLinePage.isResult.delete">Deleting is not possible. The results of the race are
+		already fixed</entry>
+	<entry key="page.rateLinePage.not.delete">Deleting is not possible. The type of the rate has
+		reference to table 'coefficient'</entry>
+	<entry key="page.racingLinePage.participantCheck">This participant already presented by in this race</entry>
+	<entry key="page.participantPage.participantCheck">Database has this participant</entry>
+
+	<entry key="page.inputResultRacing.warn">Check data. Positions can not be the same</entry>
+	<entry key="page.loginpage.data.incorrect">Data incorrect</entry>
+	<entry key="page.admin.edit.category">Category</entry>
+	<entry key="page.login.password.input">Input login and password</entry>
+	<entry key="page.hourse.addHourse">Add new horse</entry>
+	<entry key="page.selectCoefficient.insufficient.funds">Insufficient funds in the account</entry>
+	<entry key="page.selectCoefficient.no.rates">No rates</entry>
+
+
+
+</properties>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<wicket:extend>
+
+	<form class="contact_form" wicket:id="racing-line-edit-form">
+
+		<ul>
+			<li>
+				<h2>
+					<wicket:container wicket:id="hourse-racing-title" />
+				</h2> <span class="required_notification"></span>
+			</li>
+
+			<li><label wicket:for="drop-participant"><wicket:message
+						key="all.participants" /></label> <select wicket:id="drop-participant"
+				required></select></li>
+
+			<li>
+				<button class="submit" type="submit"
+					wicket:id="racing-line-submit-button">
+					<wicket:message key="all.add" />
+				</button>
+
+			</li>
+		</ul>
+	</form>
+	<br />
+
+	<div class="tableconteiner">
+		<table>
+
+			<tbody>
+				<tr>
+					<td>Id</td>
+					<td><wicket:message key="all.jockey" /></td>
+					<td><wicket:message key="all.hourse" /></td>
+					<td><wicket:message key="all.result" /></td>
+					<td><wicket:message key="all.action" /></td>
+
+				</tr>
+
+
+				<tr wicket:id="racing-line-list">
+					<td><span wicket:id="id"></span></td>
+					<td><span wicket:id="jockey-name"></span></td>
+					<td><span wicket:id="hourse-name"></span></td>
+					<td><span wicket:id="result"></span></td>
+					<td><div class="action-button">
+							<a class="button" wicket:id="racing-line-delete-link"><wicket:message
+									key="all.delete" /></a>
+						</div></td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<br />
+
+	<a class="button" wicket:id="hourse-racing-page-link"><span><wicket:message
+				key="all.hourse.racings" /></span></a>
+	<a class="button" wicket:id="racing-result-edit-link"><wicket:message
+			key="all.add" /> <wicket:message key="all.results" /></a>
+
+</wicket:extend>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+	<Appenders>
+		<Console name="CONSOLE" target="SYSTEM_OUT">
+			<PatternLayout pattern="%d %-5p [%t] %C{2} (%F:%L) - %m%n" />
+		</Console>
+
+		RollingFile name="SERVER_LOGFILE" fileName="/logs/training.log" - for
+		windows
+		<RollingFile name="SERVER_LOGFILE" fileName="/home/dreaminteam/logs/training.log"
+			filePattern="/home/dreaminteam/logs/training-%d{MM-dd-yyyy}.log.gz">
+			<PatternLayout>
+				<Charset>UTF-8</Charset>
+				<Pattern>%d %-5p %-5c{3}:%L %x -> %m%n</Pattern>
+			</PatternLayout>
+			<Policies>
+				<SizeBasedTriggeringPolicy size="20 MB" />
+			</Policies>
+			<DefaultRolloverStrategy max="20" />
+		</RollingFile>
+	</Appenders>
+	<Loggers>
+
+		<Logger name="com.epam.training.dao" level="DEBUG">
+			<AppenderRef ref="CONSOLE" />
+		</Logger>
+
+		<Logger name="org.springframework.context.support" level="DEBUG"
+			additivity="false">
+			<AppenderRef ref="CONSOLE" />
+			<AppenderRef ref="SERVER_LOGFILE" />
+		</Logger>
+
+
+		<Root level="INFO">
+			<AppenderRef ref="CONSOLE" />
+		</Root>
+	</Loggers>
+</Configuration>

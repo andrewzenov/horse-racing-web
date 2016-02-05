@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<wicket:extend>
+
+	<form class="contact_form" wicket:id="hourse-racing-edit-form">
+
+		<ul>
+			<li>
+				<h2><wicket:message key="all.addRace"/></h2> <span class="required_notification">*
+					Denotes Required Field</span>
+			</li>
+			
+			<li><label wicket:for="title"><wicket:message key="all.title"/></label> <input type="text"
+				wicket:id="title" placeholder="Final 2013" required /></li>
+
+			<li><div id="time">
+					<label wicket:for="dateTimeField"><wicket:message key="all.date"/></label> <span
+						wicket:id="dateTimeField"></span>
+				</div></li>
+
+			<li>
+				<button class="submit" type="submit"
+					wicket:id="hourse-racing-submit-button">
+					<wicket:message key="all.save" />
+				</button>
+
+			</li>
+		</ul>
+	</form>
+
+	<br />
+	<a class="button" wicket:id="hourse-racing-page-link"><wicket:message key="all.hourse.racings"/></a>
+
+</wicket:extend>

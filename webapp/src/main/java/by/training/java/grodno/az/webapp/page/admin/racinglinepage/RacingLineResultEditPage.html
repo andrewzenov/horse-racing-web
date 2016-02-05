@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<wicket:extend>
+
+	<form class="contact_form" wicket:id="racing-line-result-edit-form">
+
+		<ul>
+			<li>
+				<h2>
+					<wicket:container wicket:id="hourse-racing-title"></wicket:container>
+				</h2> <span class="required_notification"></span>
+			</li>
+			<li>
+				<div class="tableconteiner">
+					<table>
+
+						<tbody>
+							<tr>
+								<td>Id</td>
+								<td><wicket:message key="all.participant"/></td>
+								<td><wicket:message key="all.result"/></td>
+
+							</tr>
+
+
+							<tr wicket:id="racing-line-result-list-view">
+								<td><span wicket:id="id"></span></td>
+								<td><span wicket:id="participant"></span></td>
+								<td><select wicket:id="drop-position" required></select></td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</li>
+
+			<li>
+				<button class="submit" type="submit"
+					wicket:id="racing-line-result-submit-button">
+					<wicket:message key="all.save" />
+				</button>
+
+			</li>
+		</ul>
+
+				<div wicket:id="warn-panel"></div>
+
+
+	</form>
+<br/>
+	<a class="button" wicket:id="hourse-racing-page-link"><span><wicket:message
+				key="all.hourse.racings" /></span></a>
+
+</wicket:extend>

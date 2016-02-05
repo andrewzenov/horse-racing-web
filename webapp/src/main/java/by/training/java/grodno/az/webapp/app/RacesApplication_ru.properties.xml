@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+	<entry key="all.login">Логин</entry>
+	<entry key="all.password">Пароль</entry>
+	<entry key="all.welcome">Добро пожаловать</entry>
+	<entry key="all.data.review">Обзор данных</entry>
+	<entry key="all.save">Сохранить</entry>
+	<entry key="all.delete">Удалить</entry>
+	<entry key="all.add">Добавить</entry>
+	<entry key="all.edit">Редактировать</entry>
+	<entry key="all.title">Заглавие</entry>
+	<entry key="all.description">Описание</entry>
+	<entry key="all.date">Дата</entry>
+	<entry key="all.registration.date">Дата регистрации</entry>
+	<entry key="all.action">Действие</entry>
+	<entry key="all.actions">Действия</entry>
+	<entry key="all.name">Имя</entry>
+	<entry key="all.firstName">Имя</entry>
+	<entry key="all.lastName">Фамилия</entry>
+	<entry key="all.email">Электронная почта</entry>
+	<entry key="all.role">Роль</entry>
+	<entry key="all.users">Пользователи</entry>
+	<entry key="all.user">Пользователь</entry>
+	<entry key="all.jockey">Наездник</entry>
+	<entry key="all.jockeys">Наездники</entry>
+	<entry key="all.hourse">Лошадь</entry>
+	<entry key="all.hourses">Лошади</entry>
+	<entry key="all.participant">Участник</entry>
+	<entry key="all.participants">Участники</entry>
+	<entry key="all.addRace">Добавить гонку</entry>
+	<entry key="all.hourse.racings">Конные скачки</entry>
+	<entry key="all.result">Результат</entry>
+	<entry key="all.results">Результаты</entry>
+	<entry key="all.rate">Ставка</entry>
+	<entry key="all.rates">Ставки</entry>
+	<entry key="all.data.saved">Данные успешно сохранены</entry>
+	<entry key="all.rateLine">Линии ставок</entry>
+	<entry key="all.coefficients">Коэффициенты</entry>
+	<entry key="all.tableRecords.limit">Достигнут лимит записей в таблице </entry>
+	<entry key="all.password.chang">Изменение пароля</entry>
+	<entry key="all.password.current">Текущий пароль</entry>
+	<entry key="all.password.new">Новый пароль</entry>
+	<entry key="all.balance">Баланс</entry>
+	<entry key="all.balance.add">Пополнить баланс</entry>
+	<entry key="all.value">Значение</entry>
+	<entry key="all.result.position">Итоговая позиция</entry>
+	<entry key="all.delete.inposible">Удаление невозможно. Запист имеет зависимость с другой
+		таблицей база данных</entry>
+
+
+
+	<entry key="component.logoutInputPanel.logout">Выйти</entry>
+	<entry key="component.logoutInputPanel.registration">Регистрация</entry>
+	<entry key="component.logoutInputPanel.input">Вход</entry>
+	<entry key="component.logoutInputPanel.area">Личный кабинет</entry>
+
+	<entry key="component.registration.user.data">Данные пользователя</entry>
+	<entry key="component.registration.required.field">
+		Поля, обязательные для заполнения</entry>
+
+	<entry key="component.menuPanel.admin.home">Домашняя</entry>
+	<entry key="component.menuPanel.admin.rates">Ставки</entry>
+	<entry key="component.menuPanel.admin.edit">Редактировать</entry>
+	<entry key="component.menuPanel.admin.rules">Правила</entry>
+	<entry key="component.menuPanel.admin.aboutus">О нас</entry>
+
+	<entry key="component.menuPanel.player.home">Домашняя</entry>
+	<entry key="component.menuPanel.player.rates">Ставки</entry>
+	<entry key="component.menuPanel.player.results">Результаты</entry>
+	<entry key="component.menuPanel.player.rules">Правила</entry>
+	<entry key="component.menuPanel.player.aboutus">О нас</entry>
+
+	<entry key="component.headerHolderPanel.user.notaut">Пользователь не авторизирован</entry>
+	<entry key="component.headerHolderPanel.title.admin">Администрирование</entry>
+	<entry key="component.headerHolderPanel.title.player">Конные бега. Ставки онлайн</entry>
+
+	<entry key="page.racingLinePage.isResult">Новый участник не может быть добавлен. Результаты
+		забега уже зафиксированы</entry>
+	<entry key="page.racingLinePage.isResult.delete">Удаление невозможно. Результаты забега уже
+		зафиксированы</entry>
+	<entry key="page.rateLinePage.not.delete">Удаление невозможно. Тип ставки имеет ссылку на
+		таблицу 'coefficient'</entry>
+	<entry key="page.racingLinePage.participantCheck">Этот участник уже представлен в этой гонке</entry>
+	<entry key="page.participantPage.participantCheck">Этот участник уже присутствует в базе данных</entry>
+	<entry key="page.loginpage.data.incorrect">Данные не корректны</entry>
+	<entry key="page.inputResultRacing.warn">Проверьте данные. Позиции не могут быть одинаковыми</entry>
+	<entry key="page.admin.edit.category">Категория</entry>
+	<entry key="page.login.password.input">Введите логин и пароль</entry>
+	<entry key="page.hourse.addHourse">Добавить новую лошадь</entry>
+	<entry key="page.selectCoefficient.insufficient.funds">Недостаточно средст на счете</entry>
+	<entry key="page.selectCoefficient.no.rates">Ставок нет</entry>
+</properties>

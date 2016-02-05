@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html xmlns:wicket="http://wicket.apache.org">
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+</head>
+
+<wicket:extend>
+	<h2>
+		<wicket:message key="all.hourse.racings" />
+	</h2>
+
+	<div class="tableconteiner">
+		<table>
+
+			<tbody>
+				<tr>
+					<td>Id</td>
+					<td><wicket:message key="all.title" /></td>
+					<td><wicket:message key="all.date" /></td>
+					<td><wicket:message key="all.action" /></td>
+
+				</tr>
+
+
+				<tr wicket:id="hourse-racing-list">
+					<td><span wicket:id="id"></span></td>
+					<td><span wicket:id="title"></span></td>
+					<td><span wicket:id="date"></span></td>
+					<td><div class="action-button">
+							<a class="button" wicket:id="hourse-racing-edit-link"><wicket:message
+									key="all.edit" /></a><a class="button"
+								wicket:id="hourse-racing-delete-link"><wicket:message
+									key="all.delete" /></a> <a class="button"
+								wicket:id="racing-line-edit-link"><wicket:message
+									key="all.participants" /></a><a class="button"
+								wicket:id="racing-result-edit-link"><wicket:message
+									key="all.results" /></a><a class="button"
+								wicket:id="coefficients-edit-link"><wicket:message
+									key="all.coefficients" /></a> <a class="button"
+								wicket:id="select-coefficients-link"><span
+								wicket:id="select-label"></span></a>
+
+
+
+
+						</div></td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<br />
+	<div>
+		<a class="button" wicket:id="hourse-racing-create-link"><wicket:message
+				key="all.add" /></a>
+	</div>
+
+</wicket:extend>
+</html>

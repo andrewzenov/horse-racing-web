@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<wicket:extend xmlns:wicket="http://wicket.apache.org">
+
+	<h1><wicket:message key="all.data.review"/></h1><br/>
+	
+
+	<div class="tableconteiner">
+		<table>
+
+			<tbody>
+				<tr>
+					<td><wicket:message key="page.admin.edit.category"/></td>
+					<td><wicket:message key="all.action" /></td>
+
+				</tr>
+
+
+				<tr wicket:id="action-link">
+					<td><span wicket:id="category"></span></td>
+					<td><div class="action-button">
+							<a class="button" wicket:id="page-link"><wicket:message
+									key="all.edit" /></a>
+						</div></td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<br />
+
+
+</wicket:extend>

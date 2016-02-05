@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html xmlns:wicket="http://wicket.apache.org">
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+</head>
+
+<wicket:extend>
+	<h1>
+		<wicket:message key="all.balance.add" />
+	</h1><br/>
+	<form class="contact_form" wicket:id="balance-form">
+
+		<ul>
+
+			<h2>
+				<span wicket:id="user-login-label"></span>
+			</h2>
+
+
+			<li><label wicket:for="balance"><wicket:message
+						key="all.add" /></label><input type="text" wicket:id="balance" required /></li>
+
+
+			<li>
+				<button class="submit" type="submit" wicket:id="submit-button">
+					<wicket:message key="all.save" />
+				</button>
+
+			</li>
+		</ul>
+	</form>
+
+</wicket:extend>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<wicket:extend>
+
+	<form class="contact_form" wicket:id="jockey-edit-form">
+
+		<ul>
+			<li>
+					<h2><wicket:message key="all.jockey"/></h2> <span class="required_notification">*
+					Denotes Required Field</span>
+			</li>
+			<li><label wicket:for="firstName"><wicket:message key="all.firstName"/>:</label> <input
+				type="text" wicket:id="firstName" placeholder="Andrew" required /></li>
+
+			<li><label wicket:for="lastName"><wicket:message key="all.lastName"/>:</label> <input
+				type="text" wicket:id="lastName" placeholder="Zenov" required /></li>
+
+
+			<li>
+				<button class="submit" type="submit" wicket:id="jockey-submit-button"><wicket:message key="all.save"/></button>
+
+			</li>
+		</ul>
+	</form>
+	<br/>
+		<a class="button" wicket:id="jockeys-page-link"><wicket:message key="all.jockeys"/></a>
+
+</wicket:extend>

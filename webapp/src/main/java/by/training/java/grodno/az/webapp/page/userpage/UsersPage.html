@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html xmlns:wicket="http://wicket.apache.org">
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+</head>
+
+<wicket:extend>
+	<h1><wicket:message key="all.users"/></h1>
+	<br />
+	<div class="tableconteiner">
+		<table>
+
+			<tbody>
+				<tr>
+					<td wicket:id="sortId">Id</td>
+					<td><wicket:message key="all.login"/></td>
+					<td wicket:id="sortfName"><wicket:message key="all.firstName" /></td>
+					<td><wicket:message key="all.lastName" /></td>
+					<td><wicket:message key="all.email"/></td>
+					<td><wicket:message key="all.registration.date"/></td>
+					<td><wicket:message key="all.role"/></td>
+					<td><wicket:message key="all.actions"/></td>
+
+				</tr>
+
+
+				<tr wicket:id="users-list">
+					<td><span wicket:id="id"></span></td>
+					<td><span wicket:id="login"></span></td>
+					<td><span wicket:id="firstName"></span></td>
+					<td><span wicket:id="lastName"></span></td>
+					<td><span wicket:id="email"></span></td>
+					<td><span wicket:id="createDate"></span></td>
+					<td><span wicket:id="role"></span></td>
+					<td><div class="action-button">
+							<a class="button" wicket:id="user-edit-link"><wicket:message key="all.edit"/></a> <a
+								class="button" wicket:id="user-delete-link"><wicket:message key="all.delete"/></a>
+						</div></td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<div wicket:id="paging"></div>
+	<div><br/>
+		<a class="button" wicket:id="user-create-link"><wicket:message
+				key="all.add" /></a>
+	</div>
+
+</wicket:extend>
+</html>

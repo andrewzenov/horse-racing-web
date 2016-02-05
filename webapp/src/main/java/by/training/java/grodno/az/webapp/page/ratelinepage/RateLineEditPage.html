@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<wicket:extend>
+
+	<form class="contact_form" wicket:id="rate-line-edit-form">
+
+		<ul>
+			<li>
+				<h2>
+					<wicket:message key="all.rateLine" />
+				</h2> <span class="required_notification">* Denotes Required Field</span>
+			</li>
+			<li><label wicket:for="title"><wicket:message
+						key="all.title" /></label> <input type="text" wicket:id="title"
+				placeholder="1" required /></li>
+
+			<li><label wicket:for="description"><wicket:message
+						key="all.description" /></label> <textarea wicket:id="description"
+					placeholder="finish 1st" required /></li>
+
+			<li wicket:id="positions-list"><label
+				wicket:id="position-number"></label> <input type="checkbox"
+				wicket:id="check-box-position" /></li>
+
+
+			<li>
+				<button class="submit" type="submit"
+					wicket:id="rate-line-submit-button">
+					<wicket:message key="all.save" />
+				</button>
+
+			</li>
+		</ul>
+	</form>
+	<br />
+	<a class="button" wicket:id="rate-line-page-link"><wicket:message
+			key="all.rateLine" /></a>
+
+</wicket:extend>

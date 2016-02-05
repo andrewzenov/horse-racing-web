@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<wicket:extend>
+
+	<form class="contact_form" wicket:id="hourse-edit-form">
+
+		<ul>
+			<li>
+				<h2><wicket:message key="page.hourse.addHourse"/></h2> <span class="required_notification">*
+					Denotes Required Field</span>
+			</li>
+			<li><label wicket:for="name"><wicket:message key="all.name"/></label> <input
+				type="text" wicket:id="name" placeholder="Lucky" required /></li>
+
+
+			<li>
+				<button class="submit" type="submit" wicket:id="hourse-submit-button"><wicket:message key="all.save"/></button>
+
+			</li>
+		</ul>
+	</form>
+	<br/>
+		<a class="button" wicket:id="hourses-page-link"><wicket:message key="all.hourses"/></a>
+
+</wicket:extend>

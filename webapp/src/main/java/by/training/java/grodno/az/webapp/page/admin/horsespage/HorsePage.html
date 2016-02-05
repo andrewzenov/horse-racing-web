@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html xmlns:wicket="http://wicket.apache.org">
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+</head>
+
+<wicket:extend>
+	<h2><wicket:message key="all.hourses"/></h2>
+
+	<div class="tableconteiner">
+		<table>
+
+			<tbody>
+				<tr>
+					<td>Id</td>
+					<td><wicket:message key="all.name"/></td>
+					<td><wicket:message key="all.action"/></td>
+
+				</tr>
+
+
+				<tr wicket:id="hourses-list">
+					<td><span wicket:id="id"></span></td>
+					<td><span wicket:id="name"></span></td>
+					<td><div class="action-button">
+							<a class="button" wicket:id="hourse-edit-link"><wicket:message
+									key="all.edit" /></a><a class="button"
+								wicket:id="hourse-delete-link"><wicket:message
+									key="all.delete" /></a> 
+						</div></td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<br />
+	<div>
+		<a class="button" wicket:id="hourse-create-link"><wicket:message
+				key="all.add" /></a>
+	</div>
+
+</wicket:extend>
+</html>

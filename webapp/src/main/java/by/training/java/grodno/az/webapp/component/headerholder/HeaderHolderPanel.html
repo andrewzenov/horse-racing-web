@@ -1,0 +1,30 @@
+<meta charset="utf-8" />
+<html xmlns:wicket="http://wicket.apache.org">
+<wicket:panel>
+
+	<div id="header-holder">
+
+
+		<div class="shell">
+			<div id="header">
+				<div id="logo">
+					<div class="language-container" wicket:id="language-panel"></div>
+					<wicket:container wicket:id="logout-input-panel">
+					</wicket:container>
+
+					<h1 style="font-size: 45px;">
+						<wicket:container wicket:id="title"></wicket:container>
+					</h1>
+
+				</div>
+				<div style="float: right; margin-top: 7px;">
+					<span wicket:id="user-name-label"></span>
+				</div>
+				<wicket:container wicket:id="main-menu-panel"></wicket:container>
+
+			</div>
+		</div>
+	</div>
+
+</wicket:panel>
+</html>
