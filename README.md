@@ -8,5 +8,4 @@
 *  Perform **script.sql** from the project root directory to create DB for MySQL server.
 *  Run **creatingWar.bat** from the project root directory to building file webapp-1.0.0.war. (Need Maven. If you don’t have maven then install him (https://maven.apache.org/install.html)).
 *  Deploy **webapp-1.0.0.war** (horse-racing-web\webapp\target\webapp-1.0.0.war) on web-server (f.e. Tomcat).
-####
 * Connect attributes to DB can be corrected in **app.properties** (horse-racing-web\data\src\main\resources\ app.properties).
